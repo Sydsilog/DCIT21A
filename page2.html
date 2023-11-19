@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #ff8370;
+        font-size: 10px;
+      }
+      .header {
+        background-color: gray;
+      }
+      .footer {
+        background-color: gray;
+      }
+      .body {
+        background-color: whitesmoke;
+      }
+      table {
+        width: 100%;
+      }
+      .button {
+        background-color: green;
+        border: none;
+        color: gold;
+        margin-top: 12px;
+        padding: 8px;
+        border-radius: 5px;
+        width: 15vh;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: gold;
+        color: green;
+        transition: 0.2s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <table cellspacing="0" cellpadding="10">
+        <thead class="header">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+        </thead>
+
+        <tbody cellpadding="5" class="body">
+          <tr>
+            <td>1</td>
+            <td>BSCS Student 1</td>
+            <td>Brylemiranda15@cvsu.edu.ph</td>
+            <td>BATAK</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>BSCS Student 2</td>
+            <td>janndale23@cvsu.edu.ph</td>
+            <td>LOL PLAYER</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>BSCS Student 3</td>
+            <td>johnmichael12@cvsu.edu.ph</td>
+            <td>DUELIST</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>BSCS Student 4</td>
+            <td>Lourencelariosa@cvsu.edu.ph</td>
+            <td>S</td>
+          </tr>
+        </tbody>
+        <tfoot class="footer">
+          <tr>
+            <td colspan="4">
+              <marquee behavior="alternate" direction="left"
+                >This is a footer</marquee
+              >
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <a href="page3.html"
+        ><input class="button" type="button" value="Next"
+      /></a>
+    </div>
+  </body>
+</html>

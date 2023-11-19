@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-size: 10px;
+      }
+      body {
+        background-color: #f05941;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main {
+        background-color: white;
+        width: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        border-radius: 12px;
+      }
+      .sex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .box {
+        width: 70vh;
+        height: 20px;
+      }
+
+      .button {
+        background-color: green;
+        margin-top: 5px;
+        color: gold;
+        border: 0;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <form action="page2.html">
+        <p>Name:</p>
+        <input type="text" placeholder="Name" class="box" />
+        <p>Email:</p>
+        <input type="email" placeholder="Email" class="box" />
+        <p>Sex:</p>
+        <div class="sex">
+          <label for=""
+            ><input type="radio" name="option" value="option1" />Male</label
+          >
+          <label for=""
+            ><input type="radio" name="option" value="option1" />Female</label
+          >
+          <label for=""
+            ><input type="radio" name="option" value="option1" />Other</label
+          >
+        </div>
+        <p>Gender:</p>
+        <select name="dropdown" id="">
+          <option value="">Feminine</option>
+          <option value="">Masculine</option>
+          <option value="">Lesbian</option>
+          <option value="">Gay</option>
+          <option value="">Bisexual</option>
+          <option value="">Transgender</option>
+          <option value="">Other</option>
+        </select>
+        <p>Message:</p>
+        <textarea
+          name=""
+          id=""
+          cols="60"
+          rows="5"
+          placeholder="Enter comments..."
+        ></textarea>
+        <div>
+          <a href="page2.html"
+            ><input type="submit" name="submit" value="Submit" class="button"
+          /></a>
+          <input type="reset" name="reset" value="Reset" class="button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
